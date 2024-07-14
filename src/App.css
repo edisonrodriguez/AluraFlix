@@ -1,5 +1,11 @@
 /* Estilos generales */
-
+.App {
+  min-height: 100vh; /* Asegura que el contenido ocupe al menos toda la altura de la ventana del navegador */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribuye el contenido verticalmente */
+  position: relative; /* Asegura que el contenido no se superponga con el footer absoluto */
+}
 body {
   font-family: 'Arial', sans-serif;
   background-color: #121212; /* Fondo uniforme */
@@ -159,10 +165,10 @@ h2 {
 }
 
 .modal-content {
-  background-color: #fff;
+  background-color: rgb(24, 26, 27);
   margin: 10% auto;
   padding: 20px;
-  border: 1px solid #888;
+  border: 1px solid rgb(82, 88, 92);
   width: 80%;
   max-width: 600px;
   border-radius: 10px;
@@ -175,6 +181,7 @@ h2 {
 }
 
 form input, form select {
+  background-color: #000;
   width: 100%;
   padding: 10px;
   margin: 10px 0;
@@ -182,6 +189,7 @@ form input, form select {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
+  color: #fff;
 }
 
 form button {
@@ -213,4 +221,45 @@ form button:hover {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+
+/* Estilos del Footer */
+
+/* Asegurarse de que el footer esté al final de la página */
+.footer-container{
+  background-color: red;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: auto;
+}
+
+
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el footer */
+}
+
+.footer a {
+  color: #61dafb;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  color: #21a1f1;
 }

@@ -6,6 +6,7 @@ import ClearStorageButton from './components/ClearStorageButton';
 import EditVideoModal from './components/EditVideoModal';
 import Banner from './components/Banner';
 import './App.css';
+import Footer from './components/Footer';
 
 const App = () => {
   const getStoredVideos = () => {
@@ -74,6 +75,9 @@ const App = () => {
           closeModal={() => setIsEditModalOpen(false)} 
         />
       )}
+
+      <Footer/>
+
     </div>
   );
 };
