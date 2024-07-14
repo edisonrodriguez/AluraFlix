@@ -1,17 +1,3 @@
-/*import React from 'react';
-
-const Header = ({ openModal }) => {
-  return (
-    <header>
-      <h1>AluraFlix</h1>
-      <button onClick={openModal}>Add Video</button>
-    </header>
-  );
-};
-
-export default Header;
-*/
-
 import React from 'react';
 
 const Header = ({ openModal, clearStorage }) => {

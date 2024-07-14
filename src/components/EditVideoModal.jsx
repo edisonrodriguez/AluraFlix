@@ -71,4 +71,3 @@ const EditVideoModal = ({ video, editVideo, closeModal }) => {
 };
 
 export default EditVideoModal;
-
