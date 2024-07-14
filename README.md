@@ -6,7 +6,7 @@ AluraFlix es una plataforma para ver y compartir videos sobre temas interesantes
 
 1. Clona este repositorio.
 2. Instala las dependencias con `npm install`.
-3. Inicia la aplicación con `npm start`.
+3. Inicia la aplicación con `npm run dev`.
 
 Este proyecto utiliza Vite como su herramienta de desarrollo.
 
